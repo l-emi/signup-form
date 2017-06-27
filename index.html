@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Sign</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="center-box" class="centered">
+        <div id="top-box">
+            <h1>Welcome!</h1>
+            <i class="fa fa-bookmark fa-2x" aria-hidden="true"></i>
+        </div>
+        <div id="login-box">
+            <input type="text" placeholder="username" name="uname" required>
+            <input type="password" placeholder="password" name="psw" required>
+            <p>sign up</p>
+        </div>
+        <div id="learning-box">
+            <h1>What are you learning today?</h1>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">한국어</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">한국어</a>
+                    <a href="#">русский</a>
+                </div>
+            </div>
+            <div id="enter-box">
+                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
